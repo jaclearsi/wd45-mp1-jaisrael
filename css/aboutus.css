@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.navbar-nav a {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav a:hover {
+    color: #BA6324 !important;
+}
+
+/*  */
+
+#hero {
+    height: 550px;
+    border-radius: 10px;
+}
+
+.about-img img {
+    border-radius: 20px 2px;
+    box-shadow: 15px 15px #E3AC6D;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 400px;
+}
+
+/*  */
+
+#footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-link a:hover {
+    color: #BA6324 !important;
+}
+
+
+/* === responsive css === */
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    #hero {
+        height: 900px;
+    }
+
+    .about-img img {
+    height: 175px;
+    width: 280px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    #hero {
+        height: 500px;
+    }
+
+    .about-img img {
+    height: 400px;
+    width: 650px;
+    }
+}
+

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fur the Coffee | A Pet-Friendly Café</title>
+    <link rel="icon" type="image" href="assets/mainlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/mainlogo.png" alt="" width="80" height="75"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <a class="nav-link active link-dark" aria-current="page" href="index.html">HOME</a>
+                    <a class="nav-link link-dark" href="menu.html">MENU</a>
+                    <a class="nav-link link-dark" href="aboutus.html">ABOUT US</a>
+                    <a class="nav-link link-dark" href="delivery.html">DELIVERY</a>
+                    <a class="nav-link link-dark" href="contact.html">CONTACT</a>
+                </div>
+            </div>      
+        </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Carousel -->
+    <div id="hero-carousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+                <img src="assets/banner 1.png" class="d-block w-100 c-img" alt="">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="assets/banner 2.png" class="d-block w-100 c-img" alt="">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="assets/banner 3.png" class="d-block w-100 c-img" alt="">
+            </div>
+            <div class="carousel-item c-item">
+                <img src="assets/banner 4.png" class="d-block w-100 c-img" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Carousel end -->
+    <!-- Main -->
+    <main>
+        <!-- Introduction -->
+        <section>
+            <div class="container d-flex align-items-center py-5">
+                <div class="row justify-content-center">
+                    <div class="col p-5 mt-5 d-flex justify-content-center align-items-center mb-sm-0" id="hero">
+                        <img src="assets/intropic.png" alt="" height="500px">
+                    </div>
+                    <div class="col">
+                        <h2 class="text-center p-4 mb-4 mt-5 intro-text fw-bold">Why Fur the Coffee?</h2>
+                        <div class="grid gap-0 row-gap-3">
+                            <div class="p-3 g-col-6">
+                                <h4 class="fst-italic">Finest Ingredients</h4>
+                                <p class="intro-text fs-5">The pressurized brewing technique enables our coffee to brew up to 5x stronger coffee.</p>
+                            </div>
+                            <div class="p-3 g-col-6">
+                                <h4 class="fst-italic">Affordable Price</h4>
+                                <p class="intro-text fs-5">Low cost yet high quality coffee that suits the taste of everyone.</p>
+                            </div>
+                            <div class="p-3 g-col-6">
+                                <h4 class="fst-italic">Pet-Friendly Place</h4>
+                                <p class="intro-text fs-5">Pets are welcome to hang out and dine with their owner.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Introduction end -->
+        <!-- Products -->
+        <section id="products">
+            <div class="container my-5">
+                <h1 class="text-center intro-text fw-bold">What We Serve</h1>
+                <p class="text-center fs-5 intro-text fw-semibold p-2">We're not your average coffee house. See what makes us different.</p>
+                <div class="container">
+                    <div class="row mt-2">
+                        <div class="col-12 col-md-4 mb-5 p-4">
+                            <div class="card overflow-hidden shadow border-0" id="card_Hover">
+                                <img class="card-img-top object-fit-cover" style="width: 100%; height: 370px;" src="assets/product 1.jpg" alt="">
+                                <div class="card-body bg-dark text-white bg-opacity-100 w-100" style="opacity: 0.8;" id="Card_Text">
+                                    <h4 class="card-title fw-bold pb-2">Coffee</h4>
+                                    <p class="card-text intro-text">Say goodbye to bland blends, and hello to better brews.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-5 p-4">
+                            <div class="card overflow-hidden shadow border-0" id="card_Hover">
+                                <img class="card-img-top object-fit-cover" style="width: 100%; height: 370px;" src="assets/product 2.jpg" alt="">
+                                <div class="card-body bg-dark text-white bg-opacity-100 w-100" style="opacity: 0.8;" id="Card_Text">
+                                    <h4 class="card-title fw-bold pb-2">Pastry</h4>
+                                    <p class="card-text intro-text">Our bake is sure to leave you with a great impression that will last a lifetime.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mb-5 p-4">
+                            <div class="card overflow-hidden shadow border-0" id="card_Hover">
+                                <img class="card-img-top object-fit-cover" style="width: 100%; height: 370px;" src="assets/product 3.jpg" alt="">
+                                <div class="card-body bg-dark text-white bg-opacity-100 w-100" style="opacity: 0.8;" id="Card_Text_1">
+                                    <h4 class="card-title fw-bold pb-2">Pasta</h4>
+                                    <p class="card-text intro-text">All the answers lie in the sauce.</p>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mx-auto mt-0">
+                        <a href="menu.html"><button class="btn btn-primary" type="button">VIEW FULL MENU</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Products end -->
+        <!-- Charity -->
+        <section class="my-5" id="charity">
+            <div class="container">
+                <div class="charity-container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="charity-content">
+                                <h2 class="py-3 fw-semibold">#FURCOFFEECARE</h2>
+                                <p class="pt-1">We support Filipino coffee farmers by using their harvested coffee beans, and through our collective technical expertise, we develop a premium local product that can compete along within the market while remaining affordable so it can be enjoyed by every Filipino.</p>
+                                <p class="pt-1">Our community is also advocating for stray dogs and cats, helping them through voluntary donations that go directly to charity.</p>
+                                <p class="pt-1">You may email us for further information and donations at <span class="fw-semibold">furthecoffeeph@gmail.com</span>.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6 ">
+                            <div class="charity-img">
+                                <img src="assets/charity banner.png" alt="" width="500px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Charity end -->
+    </main>
+    <!-- Main end -->
+    <!-- Footer -->
+    <footer class="bg-body-secondary pt-5 pb-1" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis fw-bolder">Fur the Coffee</h5>
+                    <h6 class="mb-4 fst-italic fw-semibold">A Pet-Friendly Café</h6>
+                    <br>
+                    <p><i class="fa-sharp fa-solid fa-location-dot me-2"></i>Tanauan City, Batangas</p>
+                    <p><i class="fa-sharp fa-solid fa-phone me-2"></i>+63 921 539 1928</p>
+                    <p><i class="fa-sharp fa-solid fa-envelope me-2"></i>furthecoffeeph@gmail.com</p>
+                    <br>
+                    <h6>We Accept</h6>
+                    <div class="pt-1">
+                        <i class="fa-brands fa-cc-visa fa-2x"></i>
+                        <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-2x"></i>
+                        <i class="fa-brands fa-cc-amex fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis">Useful Links</h5>
+                    <div class="footer-link">  
+                        <br>
+                        <p><a href="index.html" class="text-black" style="text-decoration: none;">Home</a></p>
+                        <p><a href="menu.html" class="text-black" style="text-decoration: none;">Menu</a></p>
+                        <p><a href="aboutus.html" class="text-black" style="text-decoration: none;">About Us</a></p>
+                        <p><a href="delivery.html" class="text-black" style="text-decoration: none;">Delivery</a></p>
+                        <p><a href="contact.html" class="text-black" style="text-decoration: none;">Contact Us</a></p>
+                        <p><a href="#charity" class="text-black" style="text-decoration: none;">#FURCOFFEECARE</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis">Products</h5>
+                    <div class="footer-link">
+                        <br>
+                        <p><a href="menu.html#coffee" class="text-black" style="text-decoration: none;">Coffee</a></p>
+                        <p><a href="menu.html#pastries" class="text-black" style="text-decoration: none;">Pastry</a></p>
+                        <p><a href="menu.html#pasta" class="text-black" style="text-decoration: none;">Pasta</a></p>
+                        <p><a href="menu.html#salad" class="text-black" style="text-decoration: none;">Salad</a></p>
+                        <p><a href="menu.html#petmenu" class="text-black" style="text-decoration: none;">Pet Menu</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis">Follow Us</h5>
+                    <br>
+                    <ul class="nav">
+                        <li class="pe-3"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #BA6324;"></i></a></li>
+                        <li class="pe-3"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #BA6324;"></i></a></li>
+                        <li class="pe-3"><a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-2xl" style="color: #BA6324;"></i></a></li>
+                        <li class="pe-3"><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok fa-2xl" style="color: #BA6324;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center mx-auto">
+            <p>© 2023 Fur the Coffee - Judy Anne Israel MP1. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- navbar js -->
+    <script>
+        const navEl = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 56) {
+                navEl.classList.add('navbar-scrolled');
+            } else if (window.scrollY < 56) {
+                navEl.classList.remove('navbar-scrolled');
+            }
+        });
+    </script>
+    <!-- navbar js end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fur the Coffee | A Pet-Friendly Café</title>
+    <link rel="icon" type="image" href="assets/mainlogo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/delivery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #DAC09F;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/mainlogo.png" alt="" width="80" height="75"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <a class="nav-link active link-dark" aria-current="page" href="index.html">HOME</a>
+                    <a class="nav-link link-dark" href="menu.html">MENU</a>
+                    <a class="nav-link link-dark" href="aboutus.html">ABOUT US</a>
+                    <a class="nav-link link-dark" href="delivery.html">DELIVERY</a>
+                    <a class="nav-link link-dark" href="contact.html">CONTACT</a>
+                </div>
+            </div>      
+        </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Main -->
+    <main>
+        <!-- Page title -->
+        <div class="container text-center" style="font-family: 'Raleway', sans-serif;">
+            <h1 class="pt-4">Fur Delivery</h1>
+            <p class="lead">Satisfy your cravings and have your Fur the Coffee favorites delivered right to your doorstep!</p>
+        </div>
+        <!-- Page title end -->
+        <!-- Section 1 -->
+        <div class="container col-xxl-8 px-4 py-5" style="font-family: 'Raleway', sans-serif;">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="assets/foodpanda.png" class="d-block mx-lg-auto img-fluid" alt="" width="700" height="500" loading="lazy">
+                    <img src="assets/grabfood.png" class="d-block mx-lg-auto img-fluid" alt="" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">Ordering has never been easier!</h1>
+                    <p class="lead">Find out if delivery is available near you. Start your day and order to get your Fur the Coffee favorites delivered to you through our partners' app - foodpanda and GrabFood, or just call away!</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-warning btn-lg px-4 me-md-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section 1 end -->
+        <!-- Section 2 -->
+        <div class="container mb-5" style="font-family: 'Raleway', sans-serif;">
+            <h3 class="text-danger-emphasis text-center pt-2 pb-3">DELIVERY POLICY</h3>
+            <div class="mx-auto px-5 py-3">
+                <h5 class="text-decoration-underline text-uppercase pb-2">On-demand Orders, Advance Orders and Notifications</h5>
+                <p class="text-start">We accept on-demand orders with just a 30 - 45 minutes lead time. We also accept advance orders up to [1 month] prior to your delivery date. Please select your preferred delivery date and time upon check-out. You will receive a text confirmation after placing your order. We may call or text you directly, if necessary. You will also be notified via text if your order has been dispatched for delivery.</p>
+            </div>
+            <div class="mx-auto px-5 py-3">
+                <h5 class="text-decoration-underline text-uppercase pb-2">Area of Coverage and Fees</h5>
+                <p class="text-start">Delivery fees will be calculated upon check-out, before proceeding to payment. Delivery fees may range from P100 to P350 depending on the distance of your location from the cafe. Please note that distance may affect the quality of the food due to longer delivery time. If your location is not covered by our delivery area, please contact us through our phone number found in the “Contact Us” page to see if we can accommodate your area.</p>
+            </div>
+            <div class="mx-auto px-5 py-3">
+                <h5 class="text-decoration-underline text-uppercase pb-2">Possibility of Delays</h5>
+                <p class="text-start">The delivery time slot for the next available hour does not take into account the distance of your delivery address. When selecting time slots, please note that peak hours, rainy weather, and holidays may affect delivery time due to volume of orders and heavier road traffic. We appreciate your understanding.</p>
+            </div>
+            <div class="mx-auto px-5 py-3">
+                <h5 class="text-decoration-underline text-uppercase pb-2">Store / Curbside Pick-Up Option</h5>
+                <p class="text-start">You may also choose to select the “Store Pick-Up” option and arrange to pick-up personally. If you need our staff to deliver your food to your car by the driveway, please indicate “Curbside Pick-Up” along with your vehicle type, color, and plate number in the “Special Request” portion. For curbside pick-up, please call us thru our phone number to inform us when you have arrived. There will be no added fees for the Store Pick-Up option and the Curbside Pick-Up Service.</p>
+            </div>
+            <div class="mx-auto px-5 py-3">
+                <h5 class="text-decoration-underline text-uppercase pb-2">Payment</h5>
+                <p class="text-start">Payment may be made online via BDO Bank Transfer and GCash. In the unlikely case you are not able to make an online payment, you may choose the “Offline Bank Transfer/Cash on Delivery (COD)” option. In this case, your order is not confirmed until our staff directly contacts you and accepts your order. Please note that COD may entail additional delivery fees due to the double trip for cash handling and may not always be approved for farther locations and huge amounts.</p>
+            </div>
+            <h4 class="fst-italic text-center py-4">Thank you for your patience and understanding as we work hard to fulfill each order safely and with care.</h4>
+        </div>
+        <!-- Section 2 end -->
+    </main>
+    <!-- Main end -->
+    <!-- Footer -->
+    <footer class="bg-body-secondary pt-5 pb-1" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis fw-bolder">Fur the Coffee</h5>
+                    <h6 class="mb-4 fst-italic fw-semibold">A Pet-Friendly Café</h6>
+                    <br>
+                    <p><i class="fa-sharp fa-solid fa-location-dot me-2"></i>Tanauan City, Batangas</p>
+                    <p><i class="fa-sharp fa-solid fa-phone me-2"></i>+63 921 539 1928</p>
+                    <p><i class="fa-sharp fa-solid fa-envelope me-2"></i>furthecoffeeph@gmail.com</p>
+                    <br>
+                    <h6>We Accept</h6>
+                    <div class="pt-1">
+                        <i class="fa-brands fa-cc-visa fa-2x"></i>
+                        <i class="fa-brands fa-cc-mastercard fa-2x"></i>
+                        <i class="fa-brands fa-cc-apple-pay fa-2x"></i>
+                        <i class="fa-brands fa-cc-amex fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis">Useful Links</h5>
+                    <div class="footer-link">  
+                        <br>
+                        <p><a href="index.html" class="text-black" style="text-decoration: none;">Home</a></p>
+                        <p><a href="menu.html" class="text-black" style="text-decoration: none;">Menu</a></p>
+                        <p><a href="aboutus.html" class="text-black" style="text-decoration: none;">About Us</a></p>
+                        <p><a href="delivery.html" class="text-black" style="text-decoration: none;">Delivery</a></p>
+                        <p><a href="contact.html" class="text-black" style="text-decoration: none;">Contact Us</a></p>
+                        <p><a href="index.html#charity" class="text-black" style="text-decoration: none;">#FURCOFFEECARE</a></p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis">Products</h5>
+                    <div class="footer-link">
+                        <br>
+                        <p><a href="menu.html#coffee" class="text-black" style="text-decoration: none;">Coffee</a></p>
+                        <p><a href="menu.html#pastries" class="text-black" style="text-decoration: none;">Pastry</a></p>
+                        <p><a href="menu.html#pasta" class="text-black" style="text-decoration: none;">Pasta</a></p>
+                        <p><a href="menu.html#salad" class="text-black" style="text-decoration: none;">Salad</a></p>
+                        <p><a href="menu.html#petmenu" class="text-black" style="text-decoration: none;">Pet Menu</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-danger-emphasis">Follow Us</h5>
+                    <br>
+                    <ul class="nav">
+                        <li class="pe-3"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #BA6324;"></i></a></li>
+                        <li class="pe-3"><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #BA6324;"></i></a></li>
+                        <li class="pe-3"><a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-2xl" style="color: #BA6324;"></i></a></li>
+                        <li class="pe-3"><a href="https://www.tiktok.com"><i class="fa-brands fa-tiktok fa-2xl" style="color: #BA6324;"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center mx-auto">
+            <p>© 2023 Fur the Coffee - Judy Anne Israel MP1. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="font-family: 'Raleway', sans-serif;"> 
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Order Now</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h5>Please contact us at 0921-539-1928 for your orders. Thank you!</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

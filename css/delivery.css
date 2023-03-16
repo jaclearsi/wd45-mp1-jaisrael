@@ -1,0 +1,54 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.navbar-nav a {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar-nav a:hover {
+    color: #BA6324 !important;
+}
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+#footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer-link a:hover {
+    color: #BA6324 !important;
+}
+
+
+/* === responsive css === */
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
